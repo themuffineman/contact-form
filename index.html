@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello world</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="the-full-fkn-thing">
+
+          <form action="index.php" method="post">
+
+            <div class="row-div" id="full-name-div">
+
+            <label class="labels" for="full-name-input">Full Name</label>
+            <input type="text" id="full-name-input" class="inputs">
+
+            </div>
+
+            <div id="form-second-line" class="row-div">
+
+              <div id="phone-div" class="second-line-divs">
+                    <label class="labels" for="phone-input">Phone Number</label>
+                    <input type="phone" id="phone-input" class="inputs">
+              </div>
+
+              <div id="date-div" class="second-line-divs">
+                    <label class="labels" for="date-input">Birth Date</label>
+                    <input type="date" id="date-input" class="inputs">
+              </div>
+
+            </div>
+
+            <div id=radio-btns class="row-div">
+
+                <label class="labels">Gender</label><br><br>
+
+                <div id="gender-radio">
+                    <div>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label class="labels" for="male">Male</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label class="labels" for="female">Female</label>
+                    </div>
+            
+                    <div>
+                    <input type="radio" name="gender" value="other" id="other">
+                    <label class="labels" for="other">Other</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="address-section" class="row-div">
+
+                <input type="text" id="address-input" placeholder="Enter Street Address" class="inputs">
+
+                <div id="city-div">
+                    <select name="country" id="country-dropdown" placeholder="Country">
+                        <option class="labels" value="USA">USA</option>
+                        <option class="labels" value="Mexico">Mexico</option>
+                        <option class="labels" value="Canada">Canada</option>
+                    </select>
+
+                    <input type="text" id="city" placeholder="City" class="inputs">
+
+                </div>
+            </div>
+            
+          </form>
+        </div>
+        
+        <script src="script.js"></script>
+      </body>
+</html>

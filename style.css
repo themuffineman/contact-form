@@ -1,0 +1,58 @@
+body{
+    background: url('neom-va9218QJFAk-unsplash.jpg') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+#the-full-fkn-thing{
+    width:40vw;
+}
+.labels{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.row-div{
+    margin-bottom:20px;
+}
+#full-name-input{
+    width:100%;
+}
+#form-second-line{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+#gender-radio{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs{
+    border-color: brown;
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px;
+}
+#city-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    
+}
+#address-input{
+    width:100%; 
+}
+#phone-div, #date-div{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+}
+#country-dropdown, #city{
+    width:40%;
+}
+#full-name-div{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
